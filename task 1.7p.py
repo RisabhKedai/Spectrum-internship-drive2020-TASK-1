@@ -3,6 +3,8 @@
 
 import pandas as pd
 
+#in order to display all thae columns without squeezing
+
 pd.set_option('display.max_columns', None)
 
 sam_tab=pd.read_csv("C:/Users/Lenovo/Desktop/diamonds.csv",nrows=5)
