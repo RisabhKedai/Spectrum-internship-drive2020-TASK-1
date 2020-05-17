@@ -2,7 +2,7 @@
  if "any" values are missing in a row of diamonds DataFrame.'''
 import pandas as pd
 
-imp_tab=pd.read_csv("C:/Users/Lenovo/Desktop/diamonds.csv")
+imp_tab=pd.read_csv("https://github.com/RisabhKedai/Spectrum-internship-drive2020-TASK-1/raw/master/diamonds.csv")
 
 print("the number of rows and columns are")
 
