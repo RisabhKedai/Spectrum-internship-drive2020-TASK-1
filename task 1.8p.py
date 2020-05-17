@@ -1,7 +1,7 @@
 '''8. Write a Pandas program to select a series from diamonds DataFrame. 
 Print the content of the series.'''
 import pandas as pd
-imp_tab=pd.read_csv("C:/Users/Lenovo/Desktop/diamonds.csv")
+imp_tab=pd.read_csv("https://github.com/RisabhKedai/Spectrum-internship-drive2020-TASK-1/raw/master/diamonds.csv")
 print("Select a series from below ")
 #printing a list of columns
 print(imp_tab.columns)
