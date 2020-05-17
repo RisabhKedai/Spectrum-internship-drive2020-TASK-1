@@ -7,6 +7,6 @@ import pandas as pd
 
 pd.set_option('display.max_columns', None)
 
-sam_tab=pd.read_csv("C:/Users/Lenovo/Desktop/diamonds.csv",nrows=5)
+sam_tab=pd.read_csv("https://github.com/RisabhKedai/Spectrum-internship-drive2020-TASK-1/raw/master/diamonds.csv",nrows=5)
 
 print(sam_tab)
