@@ -3,7 +3,7 @@ without replacement and store the remaining 25% of the rows in another DataFrame
 
 import pandas as pd
 
-imp_tab=pd.read_csv("C:/Users/Lenovo/Desktop/diamonds.csv")
+imp_tab=pd.read_csv("https://github.com/RisabhKedai/Spectrum-internship-drive2020-TASK-1/raw/master/diamonds.csv")
 
 samp=imp_tab.sample(frac=0.75,replace=False,axis=0)
 
